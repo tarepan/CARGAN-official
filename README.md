@@ -1,10 +1,17 @@
-# Chunked Autoregressive GAN (CARGAN)
+<div align="center">
+
+# CARGAN : Chunked Autoregressive GAN <!-- omit in toc -->
+[![OpenInColab]][notebook]
+[![paper_badge]][paper]
+
+</div>
+
+Clone of the official ***CARGAN*** implementation.  
+[Official demo](https://www.maxrmorrison.com/sites/cargan/).  
+
 [![PyPI](https://img.shields.io/pypi/v/cargan.svg)](https://pypi.python.org/pypi/cargan)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![Downloads](https://pepy.tech/badge/cargan)](https://pepy.tech/project/cargan)
-
-Official implementation of the paper _Chunked Autoregressive GAN for Conditional Waveform Synthesis_ [[paper]](https://www.maxrmorrison.com/pdfs/morrison2022chunked.pdf) [[companion website]](https://www.maxrmorrison.com/sites/cargan/)
-
 
 ## Table of contents
 
@@ -321,3 +328,8 @@ M. Morrison, R. Kumar, K. Kumar, P. Seetharaman, A. Courville, and Y. Bengio, "C
     year={2022}
 }
 ```
+
+[paper]: https://arxiv.org/abs/2110.10139
+[paper_badge]: http://img.shields.io/badge/paper-arxiv.2110.10139-B31B1B.svg
+[notebook]: https://colab.research.google.com/github/tarepan/CARGAN-official/blob/main/cargan.ipynb
+[OpenInColab]: https://colab.research.google.com/assets/colab-badge.svg
